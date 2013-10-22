@@ -1,0 +1,29 @@
+Changelog:
+---------
+
+2008/04/28 version 1.2.0 Oliver Riesen (oliver@riesen.org)
+- Rewrite for Phorum 5.2.
+
+2008/05/02 version 1.3.0 Oliver Riesen (oliver@riesen.org)
+- Bug fix: Use authors email-address instead of System Emails From Address
+  didn't work for guests.
+- Email address is encoded as per RFC 2047 (Message Header Extensions for
+  Non-ASCII Text, see http://www.rfc-editor.org/rfc/rfc2047.txt).
+
+2008/08/25 version 1.4.0 Oliver Riesen (oliver@riesen.org)
+- Using now new mail API for encoding email address as per RFC 2045.
+- Adding version check to sanity checks.
+- Bug fix: Sanity check for module settings.
+
+2010/06/02 version 1.4.1 Oliver Riesen (oliver@riesen.org)
+- Making module compatible with Mailing List Module; thanks to Robert Angle
+  (see http://www.phorum.org/phorum5/read.php?62,129775,144732).
+
+2010/06/22 version 1.4.2 Oliver Riesen (oliver@riesen.org)
+- Bug fix: Remove extraneous stuff from email addresses to avoid double name
+  part in some cases.
+
+2010/11/24 version 1.4.3 Oliver Riesen (oliver@riesen.org)
+- Using now the display name of the reporting user in case of reporting a post
+  instead of the original author; thanks to Robert Angle
+  (see http://www.phorum.org/phorum5/read.php?61,146941,146941).

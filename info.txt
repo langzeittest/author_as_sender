@@ -1,0 +1,10 @@
+title: Author as Sender
+desc: Uses the authors (or reporters) display name and email address as sender in the FROM-clause for outgoing emails (user and moderator notifications and private mail).
+author: Oliver Riesen <oliver@riesen.org>
+url: http://www.phorum.org/phorum5/read.php?62,129775
+category: email
+required_version: 5.2.8
+version: 1.4.3
+
+hook: email_user_start|mod_author_as_sender_email_user_start
+hook: sanity_checks|mod_author_as_sender_sanity_checks
