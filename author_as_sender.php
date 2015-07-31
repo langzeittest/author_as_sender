@@ -7,7 +7,7 @@ function mod_author_as_sender_email_user_start($array)
 
     include_once('./include/api/mail.php');
 
-    $PHORUM = $GLOBALS['PHORUM'];
+    global $PHORUM;
 
     $data = $array[1];
 
