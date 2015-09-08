@@ -27,3 +27,6 @@ Changelog:
 - Using now the display name of the reporting user in case of reporting a post
   instead of the original author; thanks to Robert Angle
   (see http://www.phorum.org/phorum5/read.php?61,146941,146941).
+
+2015/09/08 version 1.4.4 Oliver Riesen (oliver@riesen.org)
+- Performance improvement.

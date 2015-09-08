@@ -1,5 +1,5 @@
 Module: Author as Sender
-Version: 1.4.3
+Version: 1.4.4
 Author: Oliver Riesen <oliver@riesen.org>
 
 Uses the authors display name and email address as sender in the FROM-clause
@@ -18,7 +18,7 @@ doesn't allow to show the email address to other users.
 Email address is encoded as per RFC 2045 (Message Header Extensions for
 Non-ASCII Text, see http://www.rfc-editor.org/rfc/rfc2045.txt).
 
-Tested on version 5.2.15a
+Tested on version 5.2.20
 
 
 License:
